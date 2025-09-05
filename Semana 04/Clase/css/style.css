@@ -1,0 +1,25 @@
+body{
+    background-color: blanchedalmond;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*
+        display: flexbox;
+        align-items: center;
+    */
+    margin: 40px;
+}
+
+table {
+    background-color: aliceblue;
+    color: black;
+    margin: auto;
+    padding: 5px;
+    border-radius: 8px auto;
+    border-collapse: collapse;
+}
+
+tr, td {
+    margin: auto;
+    padding: 5px;
+    background-color: rgb(215, 222, 245);
+}
