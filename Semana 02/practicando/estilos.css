@@ -1,0 +1,42 @@
+form {
+    background-color: rgb(115, 124, 161);
+    margin: 50px auto;
+    width: 350px;
+    padding: 15px;
+    border-radius: 5px;
+}
+table {
+    width: 100%;
+}
+
+form label {
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+    width: 72px;
+}
+
+form input {
+    border-radius: 5px;
+    border: 1px solid #f6f6f6;
+    display: inline-block;
+    width: 260px;
+}
+
+textarea{
+    resize: none;
+    width: 260px;
+    height: 100px;
+    border: 1px solid #f6f6f6;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    background-color: rgb(14, 14, 72);
+    border: 2px solid #f6f6f6;
+    color: white;
+    height: 40px;
+    margin-top: 10px;
+}

@@ -3,25 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/Semana 02/Styles/st.css" />
+    <link rel="stylesheet" href="/Semana 02/practicando/estilos.css" />
     <title>Formulario</title>
   </head>
   <body>
+    <!-- Formulario-->
     <form action="" method="post">
       <table>
         <tr>
-          <!-- Rows filas-->
           <td>
-            <!-- Columnas-->
-            <label>Nombres</label>
+            <label>Nombre</label>
             <input type="text" id="nombre" placeholder="Escribe tu nombre." />
           </td>
         </tr>
 
         <tr>
-          <!-- Rows filas-->
           <td>
-            <!-- Columnas-->
             <label>Apellidos</label>
             <input
               type="text"
@@ -30,57 +27,42 @@
             />
           </td>
         </tr>
+
         <tr>
-          <!-- Rows filas-->
           <td>
-            <!-- Columnas-->
             <label>Email</label>
-            <input type="email" id="email" placeholder="Escribe tu email." />
-          </td>
-        </tr>
-        <tr>
-          <!-- Rows filas-->
-          <td>
-            <!-- Columnas-->
-            <label>Asunto</label>
             <input
-              type="text"
-              id="asunto"
-              placeholder="Titulo de la consulta."
+              type="email"
+              id="email"
+              placeholder="Escribe aquí tu nombre, por favor."
             />
           </td>
         </tr>
+
         <tr>
-          <!-- Rows filas-->
           <td>
-            <!-- Columnas-->
+            <label>Asunto</label>
+            <input type="text" id="asunto" placeholder="Titulo del mensaje" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
             <label>Mensaje</label>
             <textarea
-              name=""
-              id=""
-              maxlength=""
-              placeholder="Describe brevemente en menos de 300 caracteres"
+              id="mensaje"
+              placeholder="Escribe tu mensaje aquí..."
+              maxlength="300"
             ></textarea>
           </td>
         </tr>
+
         <tr>
-          <!-- Rows filas-->
           <td>
-            <!-- Columnas-->
-            <input type="submit" value="Enviar Datos" />
+            <input type="submit" value="Enviar" />
           </td>
         </tr>
       </table>
     </form>
   </body>
 </html>
-
-<!-- place holder es para tener un texto predeterminado en una casilla de entrada-->
-
-<!--
-    Proyecto web
-    - index
-    - CSS
-    - JS
-    - IMG
--->
