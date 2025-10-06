@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Semana 08/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Ejemplo modal</title>
+</head>
+<body>
+    <script src="/Semana 08/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <div class="container">
+        <button class="btn text-bg-primary" type="button" data-bs-toggle="modal" data-bs-target="#miModal">
+            Abrir modal
+        </button>
+
+        <!-- Estructura del modal -->
+        <div class="modal fade" id="miModal" tabindex="-1" aria-labelledby="miModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        Contenido del modal...
+                        <form action="">
+                            <label>Nombre:</label>
+                            <input type="email" name="email" required>
+                            <button type="button">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+Un modal es una ventana emergente
+Revisará para la semana 10 modales nodejs
+Presentar 3 modales en la página del proyecto
+Quiere un modal de formulario
